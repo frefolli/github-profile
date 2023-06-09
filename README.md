@@ -56,6 +56,7 @@ mindmap
 ```
 
 #Stats
+
 <center>
 
   <img src="https://github-readme-stats.vercel.app/api?username=windflaag&show_icons=true&theme=tokyonight"/>

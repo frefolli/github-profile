@@ -41,7 +41,7 @@ def forge_skills(config):
 
 def forge_stats(config):
     username = config["profile"]["username"]
-    text = "#Stats\n"
+    text = "#Stats\n\n"
     text += "<center>"
     text += '\n\n  <img src="https://github-readme-stats.vercel.app/api?username=%s&show_icons=true&theme=tokyonight"/>' % username
     text += '\n\n  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=%s&layout=compact&langs_count=12&theme=tokyonight"/>' % username

@@ -27,7 +27,7 @@ def compose_cli() -> argparse.ArgumentParser:
 
 def forge_skill(skill_name, array):
     text = "## %s\n\n" % skill_name
-    text += "```mermaid\nmindmap\n  root(mindmap)"
+    text += "```mermaid\nmindmap\n  root(%s)" % skill_name
     for thing in array:
         text += "\n    %s" % thing
     text += "\n```"
@@ -39,12 +39,21 @@ def forge_skills(config):
         for skill in skills:
             yield forge_skill(skill, skills[skill])
 
+def forge_stats(config):
+    username = config["profile"]["username"]
+    text = "#Stats\n"
+    text += '\n\n![stats](https://github-readme-stats.vercel.app/api?username=%s&show_icons=true&theme=tokyonight")' % username
+    text += '\n\n![langs]()https://github-readme-stats.vercel.app/api/top-langs/?username=%s&layout=compact&langs_count=12&theme=tokyonight' % username
+    text += '\n\n![trophies](https://github-profile-trophy.vercel.app/?username=%s)' % username
+    return text
+
 def main():
     config = compose_cli().parse_args(sys.argv[1:])
     profile = open_yaml_config(config.input)
 
     sections = []
     sections += list(forge_skills(profile))
+    sections.append(forge_stats(profile))
     text = "\n\n".join(sections)
 
     write_profile(config.output, text)

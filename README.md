@@ -1,8 +1,8 @@
-## languages
+## Languages
 
 ```mermaid
 mindmap
-  root(mindmap)
+  root(Languages)
     Java
     C++
     C
@@ -14,11 +14,11 @@ mindmap
     Haskell
 ```
 
-## distros
+## Linux Distros
 
 ```mermaid
 mindmap
-  root(mindmap)
+  root(Linux Distros)
     Arch Linux
     Fedora
     Debian
@@ -27,11 +27,11 @@ mindmap
     Gentoo
 ```
 
-## editors
+## Text Editors
 
 ```mermaid
 mindmap
-  root(mindmap)
+  root(Text Editors)
     Vim
     Neovim
     Emacs
@@ -39,11 +39,11 @@ mindmap
     VS Code
 ```
 
-## technologies
+## Technologies
 
 ```mermaid
 mindmap
-  root(mindmap)
+  root(Technologies)
     Node JS
     React JS
     Docker
@@ -54,3 +54,12 @@ mindmap
     Ninja
     Meson
 ```
+
+#Stats
+
+
+![stats](https://github-readme-stats.vercel.app/api?username=windflaag&show_icons=true&theme=tokyonight")
+
+![langs]()https://github-readme-stats.vercel.app/api/top-langs/?username=windflaag&layout=compact&langs_count=12&theme=tokyonight
+
+![trophies](https://github-profile-trophy.vercel.app/?username=windflaag)

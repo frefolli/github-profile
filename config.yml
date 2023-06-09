@@ -2,12 +2,8 @@ profile:
   username: windflaag
   name: Francesco
   surname: Refolli
-features:
-  - stats
-  - languages
-  - trophy
 skills:
-  languages:
+  Languages:
     - Java
     - C++
     - C
@@ -17,20 +13,20 @@ skills:
     - Python
     - Javascript
     - Haskell
-  distros:
+  Linux Distros:
     - Arch Linux
     - Fedora
     - Debian
     - Void
     - Slackware
     - Gentoo
-  editors:
+  Text Editors:
     - Vim
     - Neovim
     - Emacs
     - Notepad++
     - VS Code
-  technologies:
+  Technologies:
     - Node JS
     - React JS
     - Docker

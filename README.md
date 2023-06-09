@@ -11,7 +11,8 @@ mindmap;
     "Lisp";
     "Python";
     "Javascript";
-    "Haskell";```
+    "Haskell";
+```
 
 ## distros
 
@@ -23,7 +24,8 @@ mindmap;
     "Debian";
     "Void";
     "Slackware";
-    "Gentoo";```
+    "Gentoo";
+```
 
 ## editors
 
@@ -34,7 +36,8 @@ mindmap;
     "Neovim";
     "Emacs";
     "Notepad++";
-    "VS Code";```
+    "VS Code";
+```
 
 ## technologies
 
@@ -49,4 +52,5 @@ mindmap;
     "Make";
     "CMake";
     "Ninja";
-    "Meson";```
+    "Meson";
+```

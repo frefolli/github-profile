@@ -44,9 +44,9 @@ def forge_stats(config):
     text = "## Stats\n"
     text += "\n<center>"
     text += '\n  <table>'
-    text += '\n    <tr><td><img width="100%" src="https://github-readme-stats.vercel.app/api?username=%s&show_icons=true&theme=tokyonight"/></td></tr>' % username
-    text += '\n    <tr><td><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=%s&layout=compact&langs_count=12&theme=tokyonight"/></td></tr>' % username
-    text += '\n    <tr><td><img width="100%" src="https://github-profile-trophy.vercel.app/?username=%s"/></td></tr>' % username
+    text += '\n    <tr><td><img width="100%%" src="https://github-readme-stats.vercel.app/api?username=%s&show_icons=true&theme=tokyonight"/></td></tr>' % username
+    text += '\n    <tr><td><img width="100%%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=%s&layout=compact&langs_count=12&theme=tokyonight"/></td></tr>' % username
+    text += '\n    <tr><td><img width="100%%" src="https://github-profile-trophy.vercel.app/?username=%s"/></td></tr>' % username
     text += '\n  </table>'
     text += "\n</center>"
     return text

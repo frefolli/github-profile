@@ -59,8 +59,8 @@ mindmap
 
 <center>
   <table>
-    <tr><td><img src="https://github-readme-stats.vercel.app/api?username=windflaag&show_icons=true&theme=tokyonight"/></tr></td>
-    <tr><td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=windflaag&layout=compact&langs_count=12&theme=tokyonight"/></tr></td>
-    <tr><td><img src="https://github-profile-trophy.vercel.app/?username=windflaag"/></td></tr>
+    <tr><td><img width="100%" src="https://github-readme-stats.vercel.app/api?username=windflaag&show_icons=true&theme=tokyonight"/></td></tr>
+    <tr><td><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=windflaag&layout=compact&langs_count=12&theme=tokyonight"/></td></tr>
+    <tr><td><img width="100%" src="https://github-profile-trophy.vercel.app/?username=windflaag"/></td></tr>
   </table>
 </center>

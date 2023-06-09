@@ -58,7 +58,7 @@ mindmap
 ## Stats
 
 <center>
-  <table>
+  <table width="100%">
     <tr><td><img width="100%" src="https://github-readme-stats.vercel.app/api?username=windflaag&show_icons=true&theme=tokyonight"/></td></tr>
     <tr><td><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=windflaag&layout=compact&langs_count=12&theme=tokyonight"/></td></tr>
     <tr><td><img width="100%" src="https://github-profile-trophy.vercel.app/?username=windflaag"/></td></tr>

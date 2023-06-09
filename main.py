@@ -2,6 +2,7 @@ import argparse
 import sys
 
 import yaml
+CREDITS = "generated with windflaag/github-profile"
 
 def open_yaml_config(config_path: str):
     with open(config_path, mode = "r", encoding = "utf-8") as stream:
@@ -89,6 +90,7 @@ def main():
     sections.append(forge_info(profile))
     sections += list(forge_skills(profile))
     sections.append(forge_stats(profile))
+    sections.append(CREDITS)
     text = "\n\n".join(sections)
 
     write_profile(config.output, text)

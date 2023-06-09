@@ -27,10 +27,10 @@ def compose_cli() -> argparse.ArgumentParser:
 
 def forge_skill(skill_name, array):
     text = "## %s\n\n" % skill_name
-    text += "```mermaid\nmindmap\n\troot(mindmap)"
+    text += "```mermaid\nmindmap;\n  root(mindmap);"
     for thing in array:
-        text += "\n    \"%s\"" % thing
-    text += "```"
+        text += "\n    \"%s\";" % thing
+    text += "\n```"
     return text
 
 def forge_skills(config):

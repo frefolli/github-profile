@@ -1,3 +1,12 @@
+# windflaag
+
+## Bio
+
+- 👋 Hi, I’m Francesco Refolli
+- 👀 I’m interested in Computer Science and Railways
+- 🌱 I’m currently on 3rd year of Bachelor's Degree in Computer Science at Universita' degli studi di Milano Bicocca
+- 💞️ I’m looking to add java.util.Scanner.nextChar() method
+
 ## Languages
 
 ```mermaid

@@ -2,6 +2,15 @@ profile:
   username: windflaag
   name: Francesco
   surname: Refolli
+  topics:
+    - Computer Science
+    - Railways
+  education:
+    grade: "Bachelor's Degree"
+    topic: "Computer Science"
+    year: "3rd"
+    institute: "Universita' degli studi di Milano Bicocca"
+  future: "add java.util.Scanner.nextChar() method"
 skills:
   Languages:
     - Java

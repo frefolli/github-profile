@@ -55,12 +55,12 @@ mindmap
     Meson
 ```
 
-#Stats
+## Stats
 
 <center>
   <table>
-    <tr><img src="https://github-readme-stats.vercel.app/api?username=windflaag&show_icons=true&theme=tokyonight"/></tr>
-    <tr><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=windflaag&layout=compact&langs_count=12&theme=tokyonight"/></tr>
-    <tr><img src="https://github-profile-trophy.vercel.app/?username=windflaag"/></tr>
+    <tr><td><img src="https://github-readme-stats.vercel.app/api?username=windflaag&show_icons=true&theme=tokyonight"/></tr></td>
+    <tr><td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=windflaag&layout=compact&langs_count=12&theme=tokyonight"/></tr></td>
+    <tr><td><img src="https://github-profile-trophy.vercel.app/?username=windflaag"/></td></tr>
   </table>
 </center>

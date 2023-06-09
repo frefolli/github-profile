@@ -56,10 +56,10 @@ mindmap
 ```
 
 #Stats
-
+<center>
 
 ![stats](https://github-readme-stats.vercel.app/api?username=windflaag&show_icons=true&theme=tokyonight")
 
 ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=windflaag&layout=compact&langs_count=12&theme=tokyonight)
 
-![trophies](https://github-profile-trophy.vercel.app/?username=windflaag)
+![trophies](https://github-profile-trophy.vercel.app/?username=windflaag)</center>

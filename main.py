@@ -42,9 +42,11 @@ def forge_skills(config):
 def forge_stats(config):
     username = config["profile"]["username"]
     text = "#Stats\n"
+    text += "<center>"
     text += '\n\n![stats](https://github-readme-stats.vercel.app/api?username=%s&show_icons=true&theme=tokyonight")' % username
     text += '\n\n![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=%s&layout=compact&langs_count=12&theme=tokyonight)' % username
     text += '\n\n![trophies](https://github-profile-trophy.vercel.app/?username=%s)' % username
+    text += "</center>"
     return text
 
 def main():

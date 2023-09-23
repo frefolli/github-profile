@@ -6,10 +6,13 @@ profile:
     - Computer Science
     - Railways
   education:
-    grade: "Bachelor's Degree"
+    grade: "Master's Degree"
     topic: "Computer Science"
-    year: "3rd"
-    institute: "Universita' degli studi di Milano Bicocca"
+    year: "1st"
+    institute: "Universita' degli studi di Milano Bicocca (just waiting to enroll :))"
+  job:
+    profession: "Software Engineer"
+    place: "Binary System SRL"
   future: "add java.util.Scanner.nextChar() method"
 skills:
   Languages:
@@ -45,3 +48,10 @@ skills:
     - CMake
     - Ninja
     - Meson
+projects:
+  Libraries:
+    - libgc
+    - libutils
+    - libhyper
+    - libclipp
+    - liblexer

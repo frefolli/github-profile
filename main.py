@@ -39,6 +39,20 @@ def forge_skills(config):
         for skill in skills:
             yield forge_skill(skill, skills[skill])
 
+def forge_project(project_name, array):
+    text = "## %s\n\n" % project_name
+    text += "```mermaid\nmindmap\n  root(%s)" % project_name
+    for thing in array:
+        text += "\n    %s" % thing
+    text += "\n```"
+    return text
+
+def forge_projects(config):
+    if "projects" in config:
+        projects = config["projects"]
+        for project in projects:
+            yield forge_project(project, projects[project])
+
 def forge_stats(config):
     username = config["profile"]["username"]
     text = "## Stats\n"
@@ -68,6 +82,12 @@ def forge_education(education):
         education["institute"],
     )
 
+def forge_job(job):
+    return "%s at %s" % (
+        job["profession"],
+        job["place"],
+    )
+
 def forge_future(future):
     return future
 
@@ -76,7 +96,10 @@ def forge_info(config):
     text += "\n- 👋 Hi, I’m %s %s" % (config["profile"]["name"],
                                       config["profile"]["surname"]) 
     text += "\n- 👀 I’m interested in %s" % forge_topics(config["profile"]["topics"])
-    text += "\n- 🌱 I’m currently on %s" % forge_education(config["profile"]["education"])
+    if "education" in config["profile"]:
+        text += "\n- 📚 I’m currently on %s" % forge_education(config["profile"]["education"])
+    if "job" in config["profile"]:
+        text += "\n- 🛠️ I’m working as %s" % forge_job(config["profile"]["job"])
     text += "\n- 💞️ I’m looking to %s" % forge_future(config["profile"]["future"])
     return text
 
@@ -88,6 +111,7 @@ def main():
     sections.append("# %s" % profile["profile"]["username"])
     sections.append(forge_info(profile))
     sections += list(forge_skills(profile))
+    sections += list(forge_projects(profile))
     sections.append(forge_stats(profile))
     text = "\n\n".join(sections)
 

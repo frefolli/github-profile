@@ -55,3 +55,4 @@ projects:
     - libhyper
     - libclipp
     - liblexer
+    - libparser

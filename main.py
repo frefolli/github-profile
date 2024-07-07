@@ -104,9 +104,9 @@ class Processor:
       for edu in self.config["Profile"]["Jobs"]["Olds"]:
         self.out.write("### %s\n\n" % (edu["profession"]))
         self.out.write("I used to work for %s as %s.\n\n" % (edu["place"], edu["profession"]))
-        if "Contribution" in edu:
+        if "Contributions" in edu:
           self.out.write("Some notable contributions:\n\n")
-          for contribution in edu["Contribution"]:
+          for contribution in edu["Contributions"]:
             self.out.write(" - %s\n" % (contribution))
           self.out.write("\n")
 

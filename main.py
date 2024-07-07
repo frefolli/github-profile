@@ -81,7 +81,7 @@ class Processor:
     if "Now" in self.config["Profile"]["Education"]:
       edu = self.config["Profile"]["Education"]["Now"]
       self.out.write("### %s\n\n" % (edu["grade"]))
-      self.out.write("I'm currently studying for the %s year of %s in %s at %s" % (edu["year"], edu["grade"], edu["topic"], edu["institute"]))
+      self.out.write("I'm currently studying for the %s year of %s in %s at %s\n\n" % (edu["year"], edu["grade"], edu["topic"], edu["institute"]))
     if "Olds" in self.config["Profile"]["Education"]:
       for edu in self.config["Profile"]["Education"]["Olds"]:
         self.out.write("### %s\n\n" % (edu["grade"]))

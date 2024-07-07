@@ -67,7 +67,7 @@ class Processor:
   def process_profile_intro(self) -> None:
     self.out.write("I'm %s %s, %s, from %s.\n\n" % (self.config["Profile"]["surname"], self.config["Profile"]["name"], self.config["Profile"]["age"], self.config["Profile"]["country"]))
     if "twinname" in self.config["Profile"]:
-      self.out.write("My second Github account is [%s](github.com/%s)" % (
+      self.out.write("My second Github account is [%s](github.com/%s)\n\n" % (
         self.config["Profile"]["twinname"],
         self.config["Profile"]["twinname"]
       ))

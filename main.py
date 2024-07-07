@@ -90,6 +90,7 @@ class Processor:
         self.out.write("I graduated with %s out of %s\n\n" % (edu["mark"], edu["max_mark"]))
 
   def process_profile_jobs(self) -> None:
+    self.out.write("## Jobs\n\n")
     if "Now" in self.config["Profile"]["Jobs"]:
       edu = self.config["Profile"]["Jobs"]["Now"]
       self.out.write("### %s\n\n" % (edu["profession"]))
